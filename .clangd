@@ -1,0 +1,11 @@
+CompileFlags:
+  CompilationDatabase: build
+  Remove:
+    - -mlongcalls
+    - -fno-shrink-wrap
+    - -fstrict-volatile-bitfields
+    - -fno-tree-switch-conversion
+    - -fno-jump-tables
+    - -Wno-frame-address
+    - -Wno-old-style-declaration
+    - -Werror=all
